@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Editor Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Purple Header -->
+  <div class="top-bar">
+    <span class="portfolio-label">Portfolio</span>
+  </div>
+
+  <div class="container">
+    <h1 class="name">Bhavesh Bisht</h1>
+    <h2 class="title">VIDEO EDITOR AND FRONTEND DEVELOPER</h2>
+
+    <!-- Software Logos -->
+    <div class="software-logos">
+      <img src="assets/software1.png" alt="Software 1" />
+      <img src="assets/software2.png" alt="Software 2" />
+      <img src="assets/software3.png" alt="Software 3" />
+      <img src="assets/software4.png" alt="Software 4" />
+      <img src="assets/software5.png" alt="Software 5" />
+    </div>
+
+    <!-- Videos Section -->
+    <div class="videos-section">
+      <div class="video-box">
+        <iframe class="video-player" src="https://www.youtube.com/embed/uBKS4sIwcKU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-box">
+        <iframe class="video-player" src="https://www.youtube.com/embed/tEgRxXdHMsM" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-box">
+        <iframe class="video-player" src="https://www.youtube.com/embed/a7oVKGYIJS0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-box">
+        <iframe class="video-player" src="https://www.youtube.com/embed/GEMMh3OKZgA" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section">
+      <h3>We provide the following features:</h3>
+      <ul>
+        <li>Colour Grading</li>
+        <li>Sound Editing</li>
+        <li>Image Retouching</li>
+        <li>Video Stabilization</li>
+        <li>Custom Telegram Bots</li>
+        <li>Frontend Website Development</li>
+        <li>And much more, including AI-driven solutions tailored to your needs!</li>
+      </ul>
+    </div>
+
+    <!-- New Video Section -->
+    <!-- New Video Section -->
+<div class="new-video-section">
+  <div class="video-box">
+    <!-- Use the embed link format for regular YouTube videos -->
+    <iframe class="video-player" src="https://www.youtube.com/embed/JhztaU0dqFA" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="video-description">
+    <p>This is a basic file-storing bot that securely saves files to a private storage channel. After uploading a file, it generates a unique shareable link that can be provided to clients, users, students, etc.
+
+      The system is customizable — features like auto-deleting files after 20 minutes or adding security measures (such as preventing downloads or re-sharing) can be implemented as needed.</p>
+  </div>
+</div>
+
+
+   <!-- Contact Info -->
+<!-- Contact Section -->
+<div class="contact-section">
+  <h3 class="contact-heading">Contact</h3>
+  <div class="contact-icons-row">
+
+    <!-- Phone -->
+    <div class="contact-item">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="Phone" class="contact-icon" />
+      <a href="tel:+916398854475">+91 6398854475</a>
+    </div>
+
+    <!-- WhatsApp -->
+    <div class="contact-item">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" class="contact-icon" />
+      <a href="https://wa.me/qr/YMJJ7AD57UAUN1" target="_blank">WhatsApp</a>
+    </div>
+
+    <!-- Gmail -->
+    <div class="contact-item">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png" alt="Gmail" class="contact-icon" />
+      <a href="mailto:bhaveshbishtbigicom@gmail.com">bhaveshbishtbigicom@gmail.com</a>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="contact-item">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" class="contact-icon" />
+      <a href="https://www.linkedin.com/in/bhavesh-bisht-137852306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+    </div>
+
+    <!-- Instagram -->
+    <div class="contact-item">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png" alt="Instagram" class="contact-icon" />
+      <a href="https://instagram.com/bbeditszc" target="_blank">@bbeditszc</a>
+    </div>
+
+    <!-- YouTube Ownership Note -->
+    <div class="video-note" id="videoNote">
+      <button class="toggle-note-btn" onclick="toggleNote()">&#x25BC;</button>
+      <p id="noteText">
+        Note: These videos are directly embedded from my own YouTube channel for smooth playback and secure content delivery.
+      </p>
+    </div>
+    
+
+  </div>
+</div>
+
+
+<script>
+  function toggleNote() {
+    const note = document.getElementById('videoNote');
+    note.classList.toggle('collapsed');
+  }
+</script>
+
+
+</body>
+</html>
