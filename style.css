@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Lexend', sans-serif;
-  background: linear-gradient(to bottom, #1e1f36, #2c2f4a); /* Modern purple/blue gradient */
-  color: white;
+  background-color: #0B0C10;
+  color: #C5C6C7;
   text-align: center;
   padding: 20px;
 }
 
 .top-bar {
-  background-color: #7B4EFF; /* Vibrant purple */
+  background-color: #1F2833;
   padding: 10px 0;
   margin-bottom: 30px;
 }
@@ -16,7 +16,7 @@ body {
 .portfolio-label {
   font-size: 24px;
   font-weight: bold;
-  color: white;
+  color: #66FCF1;
 }
 
 .container {
@@ -27,13 +27,13 @@ body {
 .name {
   font-size: 36px;
   font-weight: 700;
-  color: white;
+  color: #C5C6C7;
   margin-bottom: 20px;
 }
 
 .title {
   font-size: 60px;
-  color: #7B4EFF; /* Purple accent for title */
+  color: #66FCF1;
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 50px;
@@ -59,18 +59,18 @@ body {
   transform: scale(1.1);
 }
 
-/* Videos Section (first section with 4 videos) */
+/* Videos Section */
 .videos-section {
   display: flex;
-  justify-content: flex-start; /* Align videos from left to right */
+  justify-content: flex-start;
   gap: 30px;
-  flex-wrap: nowrap; /* Prevent wrapping to force one line */
-  overflow-x: auto; /* Allow horizontal scrolling on smaller screens */
+  flex-wrap: nowrap;
+  overflow-x: auto;
   margin-bottom: 60px;
 }
 
 .video-box {
-  flex: 0 0 auto; /* Prevent shrinking and keep fixed size */
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,34 +78,31 @@ body {
 
 .video-player {
   width: 200px;
-  height: 355px; /* 9:16 aspect ratio */
+  height: 355px;
   border-radius: 10px;
   background: black;
   border: none;
 }
 
-}
-
-/* Hide the play button for YouTube if using iframe (optional) */
 .video-box button {
   display: none;
 }
 
 .video-box button:hover {
-  background-color: white;
-  color: #2c2f4a;
+  background-color: #C5C6C7;
+  color: #1F2833;
 }
 
 /* Features Section */
 .features-section {
-  text-align: left; /* Align text to the left */
-  color: #d1cfcf; /* Light gray color for better contrast with the background */
-  margin-bottom: 40px; /* Space below the section */
+  text-align: left;
+  color: #C5C6C7;
+  margin-bottom: 40px;
 }
 
 .features-section h3 {
   font-size: 28px;
-  margin-bottom: 10px; /* Space below the heading */
+  margin-bottom: 10px;
 }
 
 .features-section ul {
@@ -131,20 +128,20 @@ body {
 
 .video-player {
   width: 100%;
-  max-width: 360px; /* Medium size for video player */
-  height: 640px; /* Adjusted height to match the aspect ratio */
+  max-width: 360px;
+  height: 640px;
   border-radius: 10px;
   background: black;
   border: none;
 }
 
-/* Description Box below the video */
+/* Description Box */
 .video-description {
   text-align: left;
-  color: #d1cfcf; /* Light gray color */
+  color: #C5C6C7;
   font-size: 16px;
   padding: 20px;
-  background-color: #2c2f4a;
+  background-color: #1F2833;
   border-radius: 8px;
   margin-top: 20px;
 }
@@ -158,20 +155,19 @@ body {
 .contact-heading {
   font-size: 32px;
   font-weight: bold;
-  color: #7B4EFF;
+  color: #66FCF1;
   margin-bottom: 30px;
 }
 
 .contact-icons-row {
   display: flex;
-  justify-content: center; /* Center the row */
-  flex-wrap: nowrap;        /* Prevent wrapping */
-  gap: 40px;                /* Space between items */
-  overflow-x: auto;         /* Scroll if needed on small screens */
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  overflow-x: auto;
   max-width: 100%;
   padding: 0 20px;
 }
-
 
 .contact-item {
   display: flex;
@@ -180,29 +176,30 @@ body {
 }
 
 .contact-item a {
-  color: #ffffff;
+  color: #C5C6C7;
   font-size: 18px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .contact-item a:hover {
-  color: #7B4EFF;
+  color: #45A29E;
 }
 
 .contact-icon {
   width: 30px;
   height: 30px;
 }
+
 .video-note {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  background-color: rgba(44, 47, 74, 0.85);
+  background-color: rgba(31, 40, 51, 0.85);
   padding: 10px 15px;
   border-radius: 8px;
   font-size: 13px;
-  color: #d1cfcf;
+  color: #C5C6C7;
   max-width: 300px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
@@ -211,7 +208,7 @@ body {
 .toggle-note-btn {
   background: none;
   border: none;
-  color: #d1cfcf;
+  color: #C5C6C7;
   font-size: 16px;
   cursor: pointer;
   float: right;
@@ -225,7 +222,5 @@ body {
 }
 
 .video-note.collapsed .toggle-note-btn {
-  transform: rotate(-90deg); /* Rotates the arrow */
+  transform: rotate(-90deg);
 }
-
-
